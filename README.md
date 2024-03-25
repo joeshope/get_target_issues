@@ -15,6 +15,6 @@ Creates a JSON file in current directory containing issues from your specified p
 - Navigate into directory
 - Run using the below argument
 
-example: <pre><code>python3 main.py --org="Org Example" --project="Project Example" --token=<token> </code></pre>
+example: <pre><code>python3 main.py --org="Org Example" --project="Project Example" --token={token} </code></pre>
 
 You will have a saved file locally "results.json" that can be reviewed.
