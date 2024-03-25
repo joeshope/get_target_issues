@@ -10,7 +10,7 @@ Creates a JSON file in current directory containing issues from your specified p
 
 --token - Input your Snyk API token (You can find it here: https://docs.snyk.io/snyk-api/authentication-for-api)
 
-How to use:
+## How to use:
 - Clone repo
 - Navigate into directory
 - Run using the below argument
