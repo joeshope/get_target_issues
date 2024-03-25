@@ -5,7 +5,9 @@ Creates a JSON file in current directory containing issues from your specified p
 ## REQUIRED:
 
 --org - Input your org name i.e. "Org example"
+
 --project - Input your project name i.e. "Project Example"
+
 --token - Input your Snyk API token (You can find it here: https://docs.snyk.io/snyk-api/authentication-for-api)
 
 How to use:
