@@ -1,6 +1,6 @@
 # Get Target Issues
 
-Creates a JSON file in current directory containing issues from your specified project.
+Creates a JSON file in current directory containing all issues as well as an issues count from your specified target.
 
 ## REQUIRED:
 
