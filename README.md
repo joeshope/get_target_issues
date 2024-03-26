@@ -1,4 +1,4 @@
-# Get Project Issues
+# Get Target Issues
 
 Creates a JSON file in current directory containing issues from your specified project.
 
@@ -6,7 +6,7 @@ Creates a JSON file in current directory containing issues from your specified p
 
 --org - Input your org name i.e. "Org example"
 
---project - Input your project name i.e. "Project Example" (May be set using --project-name="Example" when using the Snyk CLI: https://docs.snyk.io/snyk-cli/commands/monitor#project-name-less-than-project_name-greater-than)
+--target - Input your target name i.e. "joeshope/get_target_issues" (May be set using --target-reference="Example" when using the Snyk CLI: https://docs.snyk.io/snyk-cli/commands/monitor#target-reference-less-than-target_reference-greater-than)
 
 --token - Input your Snyk API token (You can find it here: https://docs.snyk.io/snyk-api/authentication-for-api)
 
@@ -15,6 +15,6 @@ Creates a JSON file in current directory containing issues from your specified p
 - Navigate into directory
 - Run using the below argument
 
-example: <pre><code>python3 main.py --org="Org Example" --project="Project Example" --token={token} </code></pre>
+example: <pre><code>python3 main.py --org "Org Example" --target "target/example" --token {token} </code></pre>
 
-You will have a saved file locally "results.json" that can be reviewed.
+You will append a saved file locally "results.json" that can be reviewed. *NOTE* When ran multiple times, this will keep appending the same json
