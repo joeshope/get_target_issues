@@ -6,7 +6,7 @@ Creates a JSON file in current directory containing all issues as well as an iss
 
 --org - Input your org name i.e. "Org example"
 
---target - Input your target name i.e. "joeshope/get_target_issues" (May be set using --target-reference="Example" when using the Snyk CLI: https://docs.snyk.io/snyk-cli/commands/monitor#target-reference-less-than-target_reference-greater-than)
+--target - Input your target name i.e. "joeshope/get_target_issues" (May be set using --remote-repo-url="Example" when using the Snyk CLI: https://docs.snyk.io/snyk-cli/commands/monitor#target-reference-less-than-target_reference-greater-than)
 
 --token - Input your Snyk API token (You can find it here: https://docs.snyk.io/snyk-api/authentication-for-api)
 
